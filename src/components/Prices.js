@@ -62,7 +62,11 @@ const Prices = () => {
                   <li>{`Teach Stack: ${prices.tech}`}</li>
                 </ul>
                 <div className="price__btn">
-                  <a href={prices.deploy} className="link1 btn btn-outline1">
+                  <a
+                    href={prices.deploy}
+                    target="_blank"
+                    className="link1 btn btn-outline1"
+                  >
                     <ImNewTab fontSize="15px" /> Deploy Link
                   </a>
                   <a

@@ -12,7 +12,7 @@ function App() {
     <div>
       <Banner />
       <Nav />
-      <About />
+      <About  />
       <Services />
       <Prices />
       <Contact />
