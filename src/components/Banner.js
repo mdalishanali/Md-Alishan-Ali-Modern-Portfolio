@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 
-import { FaLinkedin, FaTwitter, FaMedium } from "react-icons/fa";
+import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 const Banner = () => {
   const [state] = React.useState({
@@ -24,16 +24,17 @@ const Banner = () => {
                       <FaLinkedin className="contactIcon" />
                     </li>
                   </a>
+                  <a href="https://github.com/mdalishanali" target="_blank">
+                    <li>
+                      <FaGithub className="contactIcon" />
+                    </li>
+                  </a>
                   <a href="https://twitter.com/MDALISHANALI2" target="_blank">
                     <li>
                       <FaTwitter className="contactIcon" />
                     </li>
                   </a>
-                  <a href="https://medium.com/@md.alishanali88" target="_blank">
-                    <li>
-                      <FaMedium className="contactIcon" />
-                    </li>
-                  </a>
+
                   <a href="https://leetcode.com/mdalishanali/" target="_blank">
                     <li>
                       <SiLeetcode className="contactIcon" />
