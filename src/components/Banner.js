@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-scroll";
+
 import { FaLinkedin, FaTwitter, FaMedium } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 const Banner = () => {
@@ -7,7 +9,7 @@ const Banner = () => {
     text: " Full Stack Developer Web Developer",
   });
   return (
-    <header className="header">
+    <header className="header home">
       <div className="container">
         <div className="row">
           <div className="col-6">
@@ -49,10 +51,12 @@ const Banner = () => {
                     Get Resume
                   </a>
                   &nbsp;&nbsp;&nbsp;
-                  <a href="" className="btn btn-smart">
-                    {/* <FaPlay className="play" /> */}
-                    About Me
-                  </a>
+                  <Link spy={true} smooth={true} duration={500} to={"about"}>
+                    <a href="" className="btn btn-smart">
+                      {/* <FaPlay className="play" /> */}
+                      About Me
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>

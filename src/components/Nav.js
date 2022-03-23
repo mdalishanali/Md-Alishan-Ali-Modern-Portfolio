@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-scroll";
+
 import { FaAlignJustify } from "react-icons/fa";
 const Nav = () => {
   const [state, setState] = React.useState(true);
@@ -13,21 +15,32 @@ const Nav = () => {
           </ul>
           {state ? (
             <ul className="navbar__right">
-              <li>
-                <a href="">Home</a>
-              </li>
-              <li>
-                <a href="">About</a>
-              </li>
-              <li>
-                <a href="">Skills</a>
-              </li>
-              <li>
-                <a href="">Project</a>
-              </li>
-              <li>
-                <a href="">Contact</a>
-              </li>
+              <Link spy={true} smooth={true} duration={500} to={"home"}>
+                <li>
+                  <a href="">Home</a>
+                </li>
+              </Link>
+
+              <Link spy={true} smooth={true} duration={500} to={"about"}>
+                <li>
+                  <a href="">About</a>
+                </li>
+              </Link>
+              <Link spy={true} smooth={true} duration={500} to={"skills"}>
+                <li>
+                  <a href="">Skills</a>
+                </li>
+              </Link>
+              <Link spy={true} smooth={true} duration={500} to={"project"}>
+                <li>
+                  <a href="">Project</a>
+                </li>
+              </Link>
+              <Link spy={true} smooth={true} duration={500} to={"contact"}>
+                <li>
+                  <a href="">Contact</a>
+                </li>
+              </Link>
               <li>
                 <a
                   href="https://drive.google.com/file/d/1fIXhaASKMBECCYwDG-01q4LfPd9zDVzp/view?usp=sharing"

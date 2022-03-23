@@ -72,7 +72,7 @@ const Services = () => {
     },
   ]);
   return (
-    <div className="services">
+    <div className="services skills">
       <div className="container">
         <div className="services__header">
           <div className="common">

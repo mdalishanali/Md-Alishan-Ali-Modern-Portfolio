@@ -38,7 +38,7 @@ const Prices = () => {
     },
   ]);
   return (
-    <div className="prices">
+    <div className="prices project">
       <div className="container">
         <div className="common">
           <h3 className="heading">{header.mainHeader}</h3>
@@ -59,7 +59,7 @@ const Prices = () => {
                 <ul>
                   <li className="priceHeading">{prices.desc}</li>
 
-                  <li>{`Teach Stack: ${prices.tech}`}</li>
+                  <li>{`Tech Stack: ${prices.tech}`}</li>
                 </ul>
                 <div className="price__btn">
                   <a
