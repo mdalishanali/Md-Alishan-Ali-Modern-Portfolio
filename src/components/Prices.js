@@ -11,7 +11,7 @@ const Prices = () => {
   const [state] = React.useState([
     {
       id: 1,
-      poster: "https://miro.medium.com/max/1400/1*DEX8agrJ8Y6D7dgCJn7EGg.gif",
+      poster: "https://miro.medium.com/max/1400/1*mP0QwOMJF6Grbvto-RqYiQ.gif",
       heading: "UrbanLadder-Clone",
       desc: "This project is a clone of UrbanLadder.com” where we can buy funrniture goods.I had some coll features like product sorting ans good UI..",
       tech: "MongoDB, Express, React,NodeJs ",
@@ -22,7 +22,7 @@ const Prices = () => {
       id: 2,
       poster:
         "https://cdn-images-1.medium.com/max/1000/1*6J5mEtUtjouxEQ017UFTsg.gif",
-      heading: "Westside-Ecommerce-Clone",
+      heading: "Westside Clone",
       desc: "This website is a clone of Westside.com” in which I implemented some cool functionalities product sorting and multiple filters, add to cart function, and many more.",
       tech: "HTML,CSS, ADVANCE JS, ",
       deploy: "https://westside-ecommerce-clone.vercel.app/",
