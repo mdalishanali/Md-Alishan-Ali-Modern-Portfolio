@@ -30,7 +30,7 @@ const Prices = () => {
     },
     {
       id: 3,
-      poster: "https://miro.medium.com/max/1400/1*XI3CIMKg7XZUdz_SwTqO7g.png",
+      poster: "https://miro.medium.com/max/1400/1*d4wbS55V7R2XQJHuYWfO1g.gif",
       heading: "Croma Clone",
       desc: "This website is a clone of Westside.com” in which I implemented some cool functionalities product sorting and multiple filters, add to cart function, and many more.",
       tech: "HTML,CSS,ADVANCE JS",
