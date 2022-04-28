@@ -11,7 +11,17 @@ const Prices = () => {
   const [state] = React.useState([
     {
       id: 1,
-      poster: "https://miro.medium.com/max/1400/1*4mMg1I6LrMX5q3TeHTz3wQ.png",
+      poster: "https://miro.medium.com/max/1400/1*DEX8agrJ8Y6D7dgCJn7EGg.gif",
+      heading: "UrbanLadder-Clone",
+      desc: "This project is a clone of UrbanLadder.com” where we can buy funrniture goods.I had some coll features like product sorting ans good UI..",
+      tech: "MongoDB, Express, React,NodeJs ",
+      deploy: "https://urban-ladder.vercel.app/",
+      github: "https://github.com/pidugu45/Urban-Ladder-Clone",
+    },
+    {
+      id: 2,
+      poster:
+        "https://cdn-images-1.medium.com/max/1000/1*6J5mEtUtjouxEQ017UFTsg.gif",
       heading: "Westside-Ecommerce-Clone",
       desc: "This website is a clone of Westside.com” in which I implemented some cool functionalities product sorting and multiple filters, add to cart function, and many more.",
       tech: "HTML,CSS, ADVANCE JS, ",
@@ -19,7 +29,7 @@ const Prices = () => {
       github: "https://github.com/mdalishanali/Westside-ecommerce-Clone",
     },
     {
-      id: 2,
+      id: 3,
       poster: "https://miro.medium.com/max/1400/1*XI3CIMKg7XZUdz_SwTqO7g.png",
       heading: "Croma Clone",
       desc: "This website is a clone of Westside.com” in which I implemented some cool functionalities product sorting and multiple filters, add to cart function, and many more.",
@@ -28,7 +38,7 @@ const Prices = () => {
       github: "https://github.com/mdalishanali/croma1",
     },
     {
-      id: 3,
+      id: 4,
       poster: "https://miro.medium.com/max/875/1*8farmZ1eExB6e9xTOVsmAQ.png",
       heading: "Youtube Clone",
       desc: "YouTube is an American online video sharing and social media platform.I had created this project using youtube api. ",
@@ -52,7 +62,13 @@ const Prices = () => {
             <div className="col-4" key={prices.id}>
               <div className="price">
                 <div className="price__rs">
-                  <img src={prices.poster} heigh="50px" width="100%" />
+                  <img
+                    src={prices.poster}
+                    alt="poster"
+                    heigh="50px"
+                    width="100%"
+                    border="10px solid white"
+                  />
                 </div>
                 <div className="priceHeading projectName">{prices.heading}</div>
 
