@@ -6,9 +6,9 @@ const About = () => {
     text: "Full Stack Web Developer",
   });
   const [state] = React.useState([
-    { id: 1, title: "Name:", text: "Md Alishan ALi" },
+    { id: 1, title: "Name:", text: "Md Alishan Ali" },
     { id: 2, title: "Email:", text: "md.alishanali88@gmail.com" },
-    { id: 3, title: "Phone:", text: "+91 99360 44989" },
+    { id: 3, title: "Phone:", text: "+91 63914 17248" },
     { id: 4, title: "Linkedin", text: "Md Alishan Ali" },
   ]);
   return (
